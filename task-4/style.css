@@ -1,0 +1,28 @@
+.box {
+  border: 1px solid black;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  }
+#box-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:10px;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.item2 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.item3 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
